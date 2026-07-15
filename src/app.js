@@ -1,8 +1,10 @@
 // Hamburger
 const hamburgerBtn = document.querySelector("#hamburger");
+const navMenu = document.querySelector('#nav-menu');
 
 hamburgerBtn.addEventListener('click', () => {
     hamburgerBtn.classList.toggle('hamburger-active');
+    navMenu.classList.toggle('hidden')
 })
 
 // NavBar Scroll
